@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/resources"
+    schedule:
+      interval: "monthly"
+    groups:
+      dev-dependencies:
+        dependency-type: "development"
+
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "monthly"
