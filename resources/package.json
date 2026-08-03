@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/aws-lambda": "^8.10.162",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.2",
     "esbuild": "^0.28.1"
   },
   "scripts": {
